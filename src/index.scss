@@ -1,0 +1,5 @@
+// 1. Load custom uswds settings
+@forward "scss/uswds-theme.scss";
+
+// 2. Load compiled uswds with above settings
+@forward "./node_modules/@uswds/uswds/packages/uswds";
