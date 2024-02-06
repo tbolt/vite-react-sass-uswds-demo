@@ -1,46 +1,46 @@
 /* _uswds-theme.scss */
 
 @use "uswds-core" with (
-    $theme-show-compile-warnings: false,
-    $theme-show-notifications: false,
-    $theme-font-path: "/dist/assets/fonts",
-    $theme-image-path: "/dist/assets/img",
+  $theme-show-compile-warnings: false,
+  $theme-show-notifications: false,
+  $theme-font-path: "/dist/assets/fonts",
+  $theme-image-path: "/dist/assets/img",
 
-    $theme-typeface-tokens: (
-      open-sans: (
-        display-name: "Open Sans",
-        cap-height: 364px,
-      ),
+  $theme-typeface-tokens: (
+    open-sans: (
+      display-name: "Open Sans",
+      cap-height: 364px,
     ),
+  ),
 
-    $theme-font-sans-custom-src: (
-      dir: "open-sans",
-      roman: (
-        100: "opensans-light-webfont",
-        200: "opensans-light-webfont",
-        300: "opensans-light-webfont",
-        400: "opensans-regular-webfont",
-        500: "opensans-medium-webfont",
-        600: "opensans-semibold-webfont",
-        700: "opensans-bold-webfont",
-        800: "opensans-extrabold-webfont",
-        900: "opensans-extrabold-webfont",
-      ),
-      italic: (
-        100: "opensans-lightitalic-webfont",
-        200: "opensans-lightitalic-webfont",
-        300: "opensans-lightitalic-webfont",
-        400: "opensans-regularitalic-webfont",
-        500: "opensans-mediumitalic-webfont",
-        600: "opensans-semibolditalic-webfont",
-        700: "opensans-bolditalic-webfont",
-        800: "opensans-extrabolditalic-webfont",
-        900: "opensans-extrabolditalic-webfont",
-      ),
+  $theme-font-sans-custom-src: (
+    dir: "open-sans",
+    roman: (
+      100: "opensans-light-webfont",
+      200: "opensans-light-webfont",
+      300: "opensans-light-webfont",
+      400: "opensans-regular-webfont",
+      500: "opensans-medium-webfont",
+      600: "opensans-semibold-webfont",
+      700: "opensans-bold-webfont",
+      800: "opensans-extrabold-webfont",
+      900: "opensans-extrabold-webfont",
     ),
+    italic: (
+      100: "opensans-lightitalic-webfont",
+      200: "opensans-lightitalic-webfont",
+      300: "opensans-lightitalic-webfont",
+      400: "opensans-regularitalic-webfont",
+      500: "opensans-mediumitalic-webfont",
+      600: "opensans-semibolditalic-webfont",
+      700: "opensans-bolditalic-webfont",
+      800: "opensans-extrabolditalic-webfont",
+      900: "opensans-extrabolditalic-webfont",
+    ),
+  ),
 
-    $theme-font-type-sans: "open-sans",
-    $theme-font-sans-custom-stack: "sans",
+  $theme-font-type-sans: "open-sans",
+  $theme-font-sans-custom-stack: "sans",
 
-    // $theme-color-primary: red
-  );
+  $theme-color-primary: red
+);
